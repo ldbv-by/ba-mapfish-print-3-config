@@ -1,0 +1,1 @@
+# ba-mapfish-print-3-config
