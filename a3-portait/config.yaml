@@ -1,0 +1,34 @@
+templates:
+    A3 portrait: !template
+      reportTemplate: A3-Hochformat.jrxml
+      attributes:
+        qrcodeurl: !string {}
+        dataOwner: !string {}
+        thirdPartyDataOwner: !string {}
+        shortLink: !string {}
+        map: !map
+          maxDpi: 200
+          width: 786
+          height: 1041
+        scalebar: !scalebar
+          width: 122
+          height: 25
+          default:
+            align: "center"
+            fontSize: 8
+            intervals: 4
+            unit: km
+            barSize: 5
+            type: line
+            lineWidth: 1
+        northArrow: !northArrow
+          size: 28
+          default:
+            graphic: "file://north-arrow.svg"
+      processors:
+          - !reportBuilder
+            directory: '.'
+          - !createMap {}
+          - !createScalebar {}
+          - !createNorthArrow {}
+            
