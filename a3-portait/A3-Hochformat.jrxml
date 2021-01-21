@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="A3-Hochformat" pageWidth="842" pageHeight="1191" columnWidth="786" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="26" uuid="eaecd919-c7f3-4974-bcd7-11e57bb61b4b">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="mapSubReport" class="java.lang.String"/>
+	<parameter name="northArrowSubReport" class="java.lang.String"/>
+	<parameter name="mapContext" class="org.mapfish.print.attribute.map.MapfishMapContext"/>
+	<parameter name="scalebarSubReport" class="java.lang.String"/>
+	<parameter name="qrcodeurl" class="java.lang.String"/>
+	<parameter name="shortLink" class="java.lang.String"/>
+	<parameter name="dataOwner" class="java.lang.String"/>
+	<parameter name="thirdPartyDataOwner" class="java.lang.String"/>
+	<pageHeader>
+		<band height="84" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image>
+				<reportElement x="0" y="0" width="786" height="84" uuid="841bbf5b-3bcc-4277-ba0f-f0b807dc1e0f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/home/dre/Arbeit/EchteDaten/resources/BA_Header_hochformat.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="1041" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<subreport>
+				<reportElement x="0" y="0" width="786" height="1041" uuid="640ae3de-eb5a-4122-b88d-66aa79bbaecf">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{mapSubReport}]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="742" y="16" width="28" height="28" uuid="cdc07a0b-8be6-41f2-a3b8-cd675fa8f451">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{northArrowSubReport}]]></subreportExpression>
+			</subreport>
+			<frame>
+				<reportElement mode="Opaque" x="283" y="1028" width="220" height="13" backcolor="#FFFFFF" uuid="c1ccfce3-06d6-4982-b105-df08cac6fef2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement x="0" y="0" width="220" height="13" uuid="61ddb9a7-aab7-4248-9683-c02a37176036">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="8"/>
+					</textElement>
+					<text><![CDATA[Vervielfältigung nur mit Erlaubnis des Herausgebers]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="984" width="122" height="57" backcolor="#FFFFFF" uuid="4cd72a37-1a15-4197-9200-e88a82c63bd0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<subreport>
+					<reportElement x="0" y="0" width="122" height="25" uuid="3c53ccf1-0039-48b5-9f5b-5dfa9de1d745">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					<subreportExpression><![CDATA[$P{scalebarSubReport}]]></subreportExpression>
+				</subreport>
+				<textField>
+					<reportElement x="0" y="25" width="122" height="31" uuid="52faf83a-62dd-4873-8564-bd3f399ad7cf">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[String.format(Locale.GERMAN, "Maßstab 1: %s", new DecimalFormat("###,###.###").format($P{mapContext}.getRoundedScaleDenominator())) + "\n" + "Erstellt am " + new SimpleDateFormat("dd.MM.yyyy HH:mm").format(new Date()) + "\n" + $P{shortLink}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<image>
+				<reportElement x="707" y="961" width="80" height="80" uuid="d68da2ba-060a-44a7-b3bd-b5c7710b2b14">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{qrcodeurl}]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="10">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="0" y="0" width="786" height="10" uuid="0f8a5884-0249-4240-9756-d7d87133b721">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["© Bayerische Vermessungsverwaltung " + new SimpleDateFormat("yyyy").format(new Date()) + $P{dataOwner} + " " + $P{thirdPartyDataOwner}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
+

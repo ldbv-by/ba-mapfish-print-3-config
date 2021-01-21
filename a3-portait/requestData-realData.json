@@ -1,0 +1,696 @@
+{
+    "layout": "A3 portrait",
+    "outputFormat": "pdf",
+    "attributes": {
+        "qrcodeurl": "http://v.bayern.de/2tvdP.png",
+        "dataOwner": ", Bayerisches Landesamt für Denkmalpflege, Landesamt für Digitalisierung, Breitband und Vermessung,",
+        "thirdPartyDataOwner": "www.bergfex.de",
+        "shortLink": "http://v.bayern.de/2tvdP",
+        "map": {
+            "scale": "50000.0",
+            "center": [4434379.680231345, 5263736.473673469],
+            "projection": "EPSG:31468",
+            "rotation": 0,
+            "dpi": "125",
+            "longitudeFirst": "true",
+            "layers": [{
+                    "type": "geojson",
+                    "geoJson": {
+                        "type": "FeatureCollection",
+                        "features": [{
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4434379.680231345, 5263736.473673469]
+                                },
+                                "properties": {}
+                            }]
+                    },
+                    "style": {
+                        "version": 2,
+                        "*": {
+                            "symbolizers": [{
+                                    "type": "text",
+                                    "pointRadius": 1,
+                                    "graphicWidth": 0.045,
+                                    "graphicHeight": 0.045,
+                                    "fillColor": "#000000",
+                                    "fillOpacity": 0,
+                                    "strokeColor": "#000000",
+                                    "strokeOpacity": 0,
+                                    "strokeLinecap": "round",
+                                    "strokeLinejoin": "round",
+                                    "label": "Täßt",
+                                    "labelXOffset": 0,
+                                    "labelYOffset": 0,
+                                    "labelAlign": "cm",
+                                    "fontColor": "#ff0000",
+                                    "fontFamily": "HELVETICA",
+                                    "fontSize": 16,
+                                    "fontWeight": "normal"
+                                }]
+                        }
+                    }
+                }, {
+                    "type": "geojson",
+                    "geoJson": {
+                        "type": "FeatureCollection",
+                        "features": [{
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4433914.712978715, 5259096.724748164, 0]
+                                },
+                                "properties": {
+                                    "Name": "Forsthaus Graseck",
+                                    "objektart": "Hütten",
+                                    "art": "Unterkunftshaus",
+                                    "rw_wgs84": "11.122",
+                                    "hw_wgs84": "47.467",
+                                    "adresse_strasse": "Graseck 4",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.forsthaus-graseck.de/"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4432645.8762115305, 5260223.126580341, 0]
+                                },
+                                "properties": {
+                                    "Name": "Kochelbergalm",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.105",
+                                    "hw_wgs84": "47.477",
+                                    "adresse_strasse": "Am Petersbad 1a",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.kochelberg-alm.de/index.php"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4433722.5570043735, 5262101.125750192, 0]
+                                },
+                                "properties": {
+                                    "Name": "Naturfreundehaus Garmisch-Partenkirchen",
+                                    "objektart": "Hütten",
+                                    "art": "Naturfreundehaus",
+                                    "rw_wgs84": "11.119",
+                                    "hw_wgs84": "47.494",
+                                    "adresse_strasse": "Schalmeiweg 21",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.naturfreunde.de/cms/de/2_Aktiv/inhalte/6_Naturfreundehaeuser/inhalte/3_nach_Bundeslaendern/inhalte/2_Bayern.php?Aktion=Detailansicht&Auswahl=0&channel=channel_2&Formular_Hausname=N%20067"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4433915.968224882, 5259207.903883734, 0]
+                                },
+                                "properties": {
+                                    "Name": "Hanneslabauer",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.122",
+                                    "hw_wgs84": "47.468",
+                                    "adresse_strasse": "Graseck 1",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen / Vordergraseck",
+                                    "url": "http://www.tourenwelt.info/huettenliste/huette.php?huette=9147"   
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4433692.321031835, 5259432.820067868, 0]
+                                },
+                                "properties": {
+                                    "Name": "Gasthof Partnachklamm",
+                                    "objektart": "Hütten",
+                                    "art": "Unterkunftshaus",
+                                    "rw_wgs84": "11.119",
+                                    "hw_wgs84": "47.47",
+                                    "adresse_strasse": "Wildenau 3a",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.gasthof-partnachklamm.de/"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4433248.883274845, 5260216.21655155, 0]
+                                },
+                                "properties": {
+                                    "Name": "Lenz'n Hütte",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.113",
+                                    "hw_wgs84": "47.477",
+                                    "adresse_strasse": "Wildenauer Straße 31",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.gapa.de/Gapa_Suche_Gastronomie?kategorie=c44aa20e-fb62-979d-8974-58788d69789c&typ="
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4436688.973351435, 5264625.695568683, 0]
+                                },
+                                "properties": {
+                                    "Name": "Esterbergalm",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.158",
+                                    "hw_wgs84": "47.517",
+                                    "adresse_strasse": "Esterberg 1",
+                                    "adresse_ort": "82490 Garmisch-Partenkirchen / Esterberg",
+                                    "url": "http://www.dullinger-web.de/huetten/voralpen/esterberg.htm"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4439058.673730583, 5267936.277125199, 0]
+                                },
+                                "properties": {
+                                    "Name": "Weilheimer Hütte",
+                                    "objektart": "Hütten",
+                                    "art": "Unterkunftshaus",
+                                    "rw_wgs84": "11.189",
+                                    "hw_wgs84": "47.547",
+                                    "adresse_strasse": "",
+                                    "adresse_ort": "",
+                                    "url": "http://www.dav-weilheim.de/index.html"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4438899.757740249, 5259932.094587047, 0]
+                                },
+                                "properties": {
+                                    "Name": "Elmauer Alm",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.188",
+                                    "hw_wgs84": "47.475",
+                                    "adresse_strasse": "In Elmau 16",
+                                    "adresse_ort": "82467 Krün / Elmau",
+                                    "url": "http://www.alpenwelt-karwendel.de/elmauer-alm-1"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4436190.969373169, 5260405.777798502, 0]
+                                },
+                                "properties": {
+                                    "Name": "Berggasthof Wamberg",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.152",
+                                    "hw_wgs84": "47.479",
+                                    "adresse_strasse": "Wamberg 9",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen / Wamberg",
+                                    "url": "http://members.gaponline.de/berggasthof-wamberg/"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4437038.028146647, 5262064.487923891, 0]
+                                },
+                                "properties": {
+                                    "Name": "Gschwandtnerbauer",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.163",
+                                    "hw_wgs84": "47.494",
+                                    "adresse_strasse": "Gschwandt 1",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen / Gschwandt",
+                                    "url": "http://www.alpenwelt-karwendel.de/gschwandtnerbauer"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4434477.318662058, 5262203.8137820605, 0]
+                                },
+                                "properties": {
+                                    "Name": "Gamshütte",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.129",
+                                    "hw_wgs84": "47.495",
+                                    "adresse_strasse": "Gamshütte 1",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen / Gamshütte",
+                                    "url": "http://www.dullinger-web.de/huetten/voralpen/gamshuette.htm"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4430117.642925234, 5263143.851805756, 0]
+                                },
+                                "properties": {
+                                    "Name": "Berggaststätte St.Martin",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.071",
+                                    "hw_wgs84": "47.503",
+                                    "adresse_strasse": "Grasberg 1",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.martinshuette-grasberg.de/"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4435548.157655462, 5263637.426296979, 0]
+                                },
+                                "properties": {
+                                    "Name": "Wankhaus",
+                                    "objektart": "Hütten",
+                                    "art": "Unterkunftshaus",
+                                    "rw_wgs84": "11.143",
+                                    "hw_wgs84": "47.508",
+                                    "adresse_strasse": "Wank 1",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.alpenverein-gapa.de/index.php?id=120"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4432398.381148266, 5264896.150618924, 0]
+                                },
+                                "properties": {
+                                    "Name": "Jugendherberge Garmisch-Partenkirchen",
+                                    "objektart": "Hütten",
+                                    "art": "Jugendherberge",
+                                    "rw_wgs84": "11.101",
+                                    "hw_wgs84": "47.519",
+                                    "adresse_strasse": "Jochstraße 10",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.garmisch.jugendherberge.de"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4430819.383259754, 5265137.02392111, 0]
+                                },
+                                "properties": {
+                                    "Name": "Berggasthof Pflegersee",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.08",
+                                    "hw_wgs84": "47.521",
+                                    "adresse_strasse": "Pflegersee 1",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.pflegersee.com/"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4434813.205489509, 5258530.6849739365, 0]
+                                },
+                                "properties": {
+                                    "Name": "Berggasthof Hintergraseck",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.134",
+                                    "hw_wgs84": "47.462",
+                                    "adresse_strasse": "Graseck 14",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen / Hintergraseck"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4433683.504416471, 5258654.5663050255, 0]
+                                },
+                                "properties": {
+                                    "Name": "Partnachalm",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.119",
+                                    "hw_wgs84": "47.463",
+                                    "adresse_strasse": "Streichla 1",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen / Streichla",
+                                    "url": "http://www.partnach-alm.de/index.html"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4431723.210970538, 5258677.100480908, 0]
+                                },
+                                "properties": {
+                                    "Name": "Garmischer Haus",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.093",
+                                    "hw_wgs84": "47.463",
+                                    "adresse_strasse": "Drehmöser 3",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.laerchenhang-mittenwald.de/de/garmischer-haus.html"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4434061.736364046, 5258761.487036938, 0]
+                                },
+                                "properties": {
+                                    "Name": "Wettersteinalm Vordergraseck",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus",
+                                    "rw_wgs84": "11.124",
+                                    "hw_wgs84": "47.464",
+                                    "adresse_strasse": "Vordergraseck 6",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.gapa.de/Gapa_Suche_Gastronomie?kategorie=c44aa20e-fb62-979d-8974-58788d69789c&typ="
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4432479.734544762, 5258890.713943873, 0]
+                                },
+                                "properties": {
+                                    "Name": "Bayernhaus",
+                                    "objektart": "Hütten",
+                                    "art": "Unterkunftshaus",
+                                    "rw_wgs84": "11.103",
+                                    "hw_wgs84": "47.465",
+                                    "adresse_strasse": "Drehmöser 4",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.bayernhaus-gap.de/"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4434742.765884576, 5258976.241391534, 0]
+                                },
+                                "properties": {
+                                    "Name": "Berggasthof Eckbauer",
+                                    "objektart": "Hütten",
+                                    "art": "Unterkunftshaus",
+                                    "rw_wgs84": "11.133",
+                                    "hw_wgs84": "47.466",
+                                    "adresse_strasse": "Eckbauer 1",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen / Eckbauer",
+                                    "url": "http://www.eckbauer.de/page/eckbauer/preise"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4430200.717494778, 5257471.913585751, 0]
+                                },
+                                "properties": {
+                                    "Name": "Kreuzjochhaus",
+                                    "objektart": "Hütten",
+                                    "art": "Unterkunftshaus",
+                                    "rw_wgs84": "11.073",
+                                    "hw_wgs84": "47.452",
+                                    "adresse_strasse": "Kreuzeck 4",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.kreuzjochhaus.de/"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4430200.717494778, 5257471.913585751, 0]
+                                },
+                                "properties": {
+                                    "Name": "Naturfreundehaus Barbarahütte",
+                                    "objektart": "Hütten",
+                                    "art": "Naturfreundehaus",
+                                    "rw_wgs84": "11.073",
+                                    "hw_wgs84": "47.452",
+                                    "adresse_strasse": "Am Kreuzeck",
+                                    "adresse_ort": "82467 Garmisch-Partenkirchen",
+                                    "url": "http://www.naturfreunde.de/cms/de/2_Aktiv/inhalte/6_Naturfreundehaeuser/inhalte/3_nach_Bundeslaendern/inhalte/2_Bayern.php?Aktion=Detailansicht&Auswahl=0&channel=channel_2&Formular_Hausname=N%20066"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4430125.305922054, 5257472.812804077, 0]
+                                },
+                                "properties": {
+                                    "Name": "Kreuzalm",
+                                    "objektart": "Hütten",
+                                    "art": "Gasthaus/bew. Alm",
+                                    "rw_wgs84": "11.072",
+                                    "hw_wgs84": "47.452",
+                                    "adresse_strasse": "",
+                                    "adresse_ort": "",
+                                    "url": "http://www.kreuzalm-garmisch.de/"
+                                }
+                            }, {
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4429672.836523577, 5257478.22848176, 0]
+                                },
+                                "properties": {
+                                    "Name": "Kreuzeckhaus",
+                                    "objektart": "Hütten",
+                                    "art": "Unterkunftshaus",
+                                    "rw_wgs84": "11.066",
+                                    "hw_wgs84": "47.452",
+                                    "adresse_strasse": "Kreuzeck 1",
+                                    "adresse_ort": "82491 Garmisch-Partenkirchen",
+                                    "url": "http://www.kreuzeckhaus-gapa.de/"
+                                } 
+                            }     
+
+                        ]
+                    },
+                    "style": {
+                        "version": 2,
+                        "*": {
+                            "symbolizers": [{
+                                    "fillOpacity": 1,
+                                    "fillColor": "#ffffff",
+                                    "strokeWidth": 1,
+                                    "strokeColor": "#ffffff",
+                                    "strokeOpacity": 1,
+                                    "strokeLinecap": "round",
+                                    "strokeLinejoin": "round",
+                                    "type": "point"
+                                }, {
+                                    "rotation": 0,
+                                    "graphicWidth": 28,
+                                    "graphicHeight": 28,
+                                    "graphicXOffset": -14,
+                                    "graphicYOffset": -14,
+                                    "graphicFormat": "image/png",
+                                    "externalGraphic": "https://geoportal.bayern.de/ba-backend/proxy/vector?url=http://www.geodaten.bayern.de/ba-data/Themen/icons/huetten-pik.png",
+                                    "type": "point"
+                                }]
+                        }
+                    }
+                }, {
+                    "type": "geojson",
+                    "geoJson": {
+                        "type": "FeatureCollection",
+                        "features": [{
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "LineString",
+                                    "coordinates": [[4433052.265568064, 5262164.58048197, 715], [4433139.909907269, 5262190.931514449, 719], [4433201.927627692, 5262243.373561171, 723], [4433310.152596714, 5262230.907691363, 729], [4433409.263011283, 5262271.698378867, 743], [4433422.642710681, 5262315.022908417, 759], [4433363.403599941, 5262367.291747022, 755], [4433273.315137689, 5262403.790017861, 754], [4433265.6559514105, 5262445.797620827, 762], [4433195.247154123, 5262509.53752785, 768], [4433153.939810738, 5262574.391070358, 772], [4433091.651941104, 5262636.371541223, 774], [4433054.376887394, 5262632.01685794, 766], [4433042.964395504, 5262622.473636705, 762], [4433001.678662989, 5262688.995984074, 765], [4432856.343404956, 5262861.568931122, 749], [4432856.407246378, 5262867.127917624, 748], [4432843.024509563, 5262882.8488413235, 745], [4432839.4873174755, 5262902.904466082, 746], [4432834.366693487, 5262916.30662018, 748], [4432827.726499329, 5262928.614294264, 746], [4432825.632335651, 5262943.093629948, 745], [4432821.226862135, 5262953.151748096, 742], [4432810.858043213, 5262968.838122227, 739], [4432795.266579649, 5262989.032327088, 736], [4432790.835632415, 5262996.866874623, 735], [4432783.4422254935, 5263009.183263418, 733], [4432770.813416223, 5263024.895698547, 731], [4432753.664299035, 5263040.660156037, 729], [4432743.231868537, 5263050.78766726, 727], [4432735.059654805, 5263060.8891919665, 724], [4432723.950666476, 5263077.696192768, 722], [4432712.752167803, 5263086.720632265, 719], [4432698.501749856, 5263092.444392501, 716], [4432682.146785972, 5263177.140525277, 716], [4432679.184484396, 5263181.622418529, 714], [4432658.984155586, 5263194.086474247, 712], [4432671.166227082, 5263205.065611117, 714], [4432621.573702235, 5263236.549075174, 705], [4432634.202138529, 5263266.648453924, 705], [4432643.332217025, 5263274.326866761, 707], [4432646.499399675, 5263287.633720882, 705], [4432648.172653056, 5263302.069734378, 705], [4432658.82218981, 5263310.842609481, 704], [4432663.355165118, 5263311.902338127, 706], [4432679.967524226, 5263315.046841069, 708], [4432696.567064083, 5263317.079592981, 712], [4432706.424744627, 5263322.525833637, 710], [4432727.621177773, 5263331.177428692, 713], [4432740.492237065, 5263336.589048336, 711], [4432760.245795794, 5263350.817087239, 714], [4432764.829870983, 5263356.324086419, 714], [4432784.634439698, 5263374.999399238, 715], [4432794.594196479, 5263389.340172279, 716], [4432799.382710707, 5263412.635969258, 717], [4432803.302818881, 5263425.934246429, 715], [4432810.900179248, 5263431.4066418735, 718], [4432812.43242854, 5263433.612920387, 718], [4432825.354289477, 5263443.4719175445, 720], [4432834.52216734, 5263454.486020448, 723], [4432843.715557332, 5263467.723734211, 724], [4432856.867163854, 5263497.595170243, 725], [4432855.386031638, 5263499.836073713, 724], [4432856.867163854, 5263497.595170243, 725], [4432863.774892845, 5263508.635278757, 726], [4432877.590274208, 5263530.715520063, 726], [4432887.613373188, 5263550.615442388, 725], [4432898.453549396, 5263576.065726403, 728], [4432905.412158814, 5263591.553077917, 729], [4432911.630170388, 5263608.160882608, 725], [4432915.435064851, 5263611.4530478595, 731], [4432920.006036263, 5263615.848368837, 726], [4432962.408830834, 5263634.264962082, 734], [4432978.407014389, 5263649.648728121, 738], [4433012.828715538, 5263694.843873207, 745], [4433016.033082236, 5263711.486322082, 745], [4433017.769041065, 5263731.481434952, 744], [4433018.522347905, 5263731.472802159, 744], [4433023.169590327, 5263742.538995934, 747], [4433034.634765687, 5263756.862909837, 750], [4433040.137157364, 5263776.814877602, 750], [4433027.675007934, 5263806.980173348, 743], [4433024.010444593, 5263815.917724648, 742], [4433020.345892838, 5263824.855278472, 737], [4433016.131929522, 5263851.59025238, 731], [4433017.8933454575, 5263873.808967376, 727], [4433023.306512677, 5263885.978328761, 733], [4433047.755571062, 5263915.720720905, 730], [4433079.87720866, 5263957.606749632, 726], [4433087.524544625, 5263967.52669653, 725], [4433099.793318053, 5263986.289310331, 725], [4433122.070826011, 5264023.840473367, 723], [4433135.896788195, 5264047.033120454, 716], [4433160.471773245, 5264087.893973344, 706], [4433168.106093395, 5264096.70222512, 711], [4433181.779170284, 5264106.553385639, 711], [4433215.96801315, 5264131.737325232, 710], [4433231.7736676745, 5264130.444782736, 710], [4433246.8133737035, 5264128.049087195, 708], [4433255.801649873, 5264123.4986496195, 712], [4433261.7769132005, 5264118.982632879, 710], [4433270.739825448, 5264112.208619432, 715], [4433281.1585048195, 5264100.970222739, 717], [4433292.432008288, 5264098.617643614, 717], [4433305.3262314955, 5264106.254089662, 714], [4433306.142929118, 5264111.804491346, 715], [4433307.750944998, 5264120.681695941, 710], [4433301.187349125, 5264139.659657349, 708], [4433299.769665818, 5264147.459448761, 708], [4433299.79504429, 5264149.683048058, 706], [4433299.896558264, 5264158.577445337, 707], [4433303.061828666, 5264171.884654054, 702], [4433307.797021181, 5264190.733670871, 698], [4433319.324075293, 5264210.6171360705, 697], [4433323.2552051805, 5264225.027561291, 696], [4433324.913908769, 5264238.351970839, 694], [4433325.066126785, 5264251.693568721, 694], [4433329.750455801, 5264266.095404931, 691], [4433338.1628943505, 5264277.11888276, 692], [4433342.055892956, 5264288.193921542, 691], [4433341.467523165, 5264302.655912277, 689], [4433341.607024578, 5264314.885711595, 687], [4433341.632388499, 5264317.109311499, 685], [4433352.279063059, 5264325.883434439, 689], [4433364.457518676, 5264336.863998432, 692], [4433372.844441152, 5264345.663925747, 692], [4433384.984795724, 5264353.309132021, 695], [4433396.422580004, 5264365.410148308, 696], [4433404.822084149, 5264375.321921052, 696], [4433408.714896437, 5264386.397004047, 697], [4433410.335363515, 5264396.386038524, 695], [4433411.126591546, 5264399.712855788, 695], [4433405.240201554, 5264412.011324547, 689], [4433403.885810709, 5264425.370094131, 690], [4433406.272163344, 5264436.462344276, 693], [4433430.103146426, 5264478.444704568, 689], [4433437.046676896, 5264492.820885875, 688], [4433443.22430435, 5264506.093854093, 689], [4433445.610554161, 5264517.186120649, 690], [4433446.515713879, 5264530.519146075, 688], [4433449.629826322, 5264539.379235199, 690], [4433452.092024009, 5264557.14230707, 690], [4433448.465313208, 5264569.41500257, 689], [4433445.579152008, 5264580.567321382, 689], [4433441.952470887, 5264592.84002163, 689], [4433439.857522418, 5264607.319166088, 689], [4433438.528441954, 5264622.901532399, 689], [4433440.161470126, 5264634.002378217, 690], [4433444.870566027, 5264650.627910619, 691], [4433451.060683198, 5264665.012689183, 693], [4433451.0733457655, 5264666.124489768, 692], [4433455.016541874, 5264681.646808308, 693], [4433454.427964365, 5264696.108794235, 694], [4433449.307646225, 5264709.5104491655, 693], [4433451.579850112, 5264710.596514764, 695], [4433460.668657107, 5264714.940785923, 696], [4433469.770109651, 5264720.396871787, 697], [4433472.194211224, 5264734.824553677, 699], [4433475.396793816, 5264751.467263018, 701], [4433482.441166079, 5264774.737906244, 701], [4433487.928522891, 5264793.5785020385, 704], [4433499.390567291, 5264807.903319316, 706], [4433508.517145227, 5264815.583066205, 707], [4433520.833461837, 5264838.793761103, 710], [4433529.257395191, 5264850.929313128, 711], [4433537.731881789, 5264867.512081004, 714], [4433547.624121774, 5264876.295121934, 715], [4433562.813720333, 5264887.241830304, 716], [4433576.547508657, 5264902.6529064085, 718], [4433581.971260604, 5264915.934584868, 720], [4433589.69235656, 5264932.525989116, 722], [4433602.698090641, 5264950.16928897, 723], [4433613.355876151, 5264960.055682024, 724], [4433617.210041336, 5264967.795502871, 724], [4433621.893130771, 5264982.19757668, 724], [4433628.911408648, 5265003.244794001, 722], [4433635.138611614, 5265020.965171078, 720], [4433638.277456472, 5265032.048964703, 718], [4433642.257821715, 5265050.9068150995, 716], [4433645.459774948, 5265067.549619468, 713], [4433650.15534892, 5265083.0635180725, 711], [4433664.654213935, 5265099.578047448, 710], [4433680.621391238, 5265112.740109471, 712], [4433681.38714005, 5265113.843361735, 712], [4433680.621391238, 5265112.740109471, 712], [4433674.861425449, 5265136.156336754, 702], [4433676.519135669, 5265149.48085475, 704], [4433683.600136672, 5265176.087146985, 701], [4433695.477380406, 5265227.101797271, 693], [4433697.963844082, 5265247.088585065, 694], [4433696.596423293, 5265259.335498004, 689], [4433690.0203528, 5265277.2012552, 688], [4433686.381020951, 5265288.362014698, 687], [4433681.285980762, 5265303.987082337, 684], [4433679.994342065, 5265322.904811412, 682], [4433684.777987021, 5265346.201353851, 681], [4433689.448016338, 5265359.491683907, 682], [4433689.435396296, 5265358.379882052, 682], [4433689.448016338, 5265359.491683907, 682], [4433710.774421769, 5265380.376602887, 680], [4433738.125403849, 5265401.193258399, 680], [4433744.991490707, 5265408.898996483, 681], [4433765.5140086, 5265425.345446599, 681], [4433783.7393466225, 5265438.482170549, 683], [4433783.751949062, 5265439.593972574, 681], [4433788.383879456, 5265449.548974597, 681], [4433790.920359877, 5265473.983013221, 680], [4433792.539931473, 5265483.972161362, 679], [4433796.406134832, 5265492.823903161, 680], [4433801.803681401, 5265503.882183423, 679], [4433808.757752715, 5265519.370610693, 680], [4433818.661102356, 5265529.265906673, 680], [4433821.786760456, 5265539.237999433, 680], [4433820.293210079, 5265540.366864969, 681]]
+                                },
+                                "properties": {
+
+                                }
+                            }]
+                    },
+                    "style": {
+                        "version": 2,
+                        "*": {
+                            "symbolizers": [{
+                                    "fillOpacity": 1,
+                                    "fillColor": "#ffffff",
+                                    "strokeWidth": 6,
+                                    "strokeColor": "#59acff",
+                                    "strokeOpacity": 0.6,
+                                    "strokeLinecap": "round",
+                                    "strokeLinejoin": "round",
+                                    "graphicFormat": "image/png",
+                                    "type": "Line"
+                                }, {
+                                    "rotation": 0,
+                                    "graphicWidth": 32,
+                                    "graphicHeight": 32,
+                                    "graphicXOffset": -10,
+                                    "graphicYOffset": -31,
+                                    "externalGraphic": "https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+                                    "type": "point"
+                                }]
+                        }   
+                    }
+                }, {
+
+                    "type": "geojson",
+                    "geoJson": {
+                        "type": "FeatureCollection",
+                        "features": [{
+                                "type": "Feature",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [4433059.680231345, 5265416.473673469]
+                                },
+                                "properties": {
+
+                                }
+                            }]
+                    },
+                    "style": {
+                        "version": 2,
+                        "*": {
+                            "symbolizers": [{
+                                    "zIndex": 30,
+                                    "rotation": 0,
+                                    "graphicWidth": 24,
+                                    "graphicHeight": 24,
+                                    "graphicXOffset": -12,
+                                    "graphicYOffset": -12,
+                                    "externalGraphic": "https://geoportal.bayern.de/bayernatlas/img/static/maki/commercial-24@2x.png",
+                                    "type": "point",
+                                    "fillOpacity": 1
+                                }]
+                        }
+                    }
+                }, {
+                    "opacity": 1,
+                    "type": "WMS",
+                    "baseURL": "http://www.geodaten.bayern.de/ogc/ogc_fzw_oa.cgi?",
+                    "layers": ["fernwanderwege", "wanderwege", "oertliche_wanderwege"],
+                    "styles": ["", "", ""],
+                    "imageFormat": "image/png",
+                    "customParams": {
+                        "TRANSPARENT": "true"
+                    }
+                }, {
+                    "opacity": 1,
+                    "type": "WMS",
+                    "baseURL": "https://geoservices.bayern.de/wms/v1/ogc_denkmal.cgi?",
+                    "layers": ["bodendenkmalO"],
+                    "styles": [""],
+                    "imageFormat": "image/png",
+                    "customParams": {
+                        "TRANSPARENT": "true"
+                    }
+                }, {
+                    "layer": "atkis",
+                    "opacity": 1,
+                    "type": "WMTS",
+                    "baseURL": "http://intergeo31.bayernwolke.de/betty/atkis/{TileMatrix}/{TileCol}/{TileRow}",
+                    "matrixSet": "EPSG:31468",
+                    "matrices": [
+                        {
+                            "identifier": "0",
+                            "matrixSize": [1, 1],
+                            "scaleDenominator": 14628571.428571,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "1",
+                            "matrixSize": [2, 2],
+                            "scaleDenominator": 7314285.714285714552,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "2",
+                            "matrixSize": [4, 4],
+                            "scaleDenominator": 3657142.857142857276,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "3",
+                            "matrixSize": [8, 8],
+                            "scaleDenominator": 1828571.428571428638,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "4",
+                            "matrixSize": [16, 16],
+                            "scaleDenominator": 914285.714285714319,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "5",
+                            "matrixSize": [32, 32],
+                            "scaleDenominator": 457142.857142857159,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "6",
+                            "matrixSize": [64, 64],
+                            "scaleDenominator": 228571.428571428580,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "7",
+                            "matrixSize": [128, 128],
+                            "scaleDenominator": 114285.714285714290,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "8",
+                            "matrixSize": [256, 256],
+                            "scaleDenominator": 57142.857142857145,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "9",
+                            "matrixSize": [512, 512],
+                            "scaleDenominator": 28571.428571428572,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "10",
+                            "matrixSize": [1024, 1024],
+                            "scaleDenominator": 14285.714285714286,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "11",
+                            "matrixSize": [2048, 2048],
+                            "scaleDenominator": 7142.857142857143,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "12",
+                            "matrixSize": [4096, 4096],
+                            "scaleDenominator": 3571.428571428572,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "13",
+                            "matrixSize": [8192, 8192],
+                            "scaleDenominator": 1785.714285714286,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }, {
+                            "identifier": "14",
+                            "matrixSize": [16384, 16384],
+                            "scaleDenominator": 892.857142857143,
+                            "tileSize": [256, 256],
+                            "topLeftCorner": [3925712, 5924288]
+                        }	    
+                    ]
+                }]
+        }
+    }
+}
+
+    
